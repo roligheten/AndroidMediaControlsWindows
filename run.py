@@ -1,7 +1,6 @@
 from controller import HeadsetButtonController
-from time import sleep
+from threading import Event
 
 controller = HeadsetButtonController()
 
-while True:
-    sleep(60)
+Event().wait()
