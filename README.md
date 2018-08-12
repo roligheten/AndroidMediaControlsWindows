@@ -1,4 +1,4 @@
-# AndroidMediaControlsWindows
+# Android Headset Media Controls for Windows
 Python script that hacks in support for Android headset media control for Windows.
 
 For more details on how this works, see the associated [blog post](http://www.roligheten.no/blog/programming/2018/07/02/media-controls-windows.html)
