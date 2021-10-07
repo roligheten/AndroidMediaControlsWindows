@@ -1,12 +1,18 @@
 # Android Headset Media Controls for Windows
-Python script that hacks in support for Android headset media control for Windows.
+Python script that hacks in support for Android headset media control for Windows and Linux
 
 For more details on how this works, see the associated [blog post](http://www.roligheten.no/blog/programming/2018/07/02/media-controls-windows.html)
 
 ## Installation
+
+### On Windows
 Regardless of the platform the following is required
 1. Python 3 or 2.7 (untested) installed on the system.
 2. The packages pywin32 and sounddevice, installable via `pip install pywin32 sounddevice`.
+### On Linux
+1. Install python3 via `sudo apt install python3`
+2. install packages sounddevice and numpy `pip3 install numpy`
+3. install xdotool (emulates key presses) `sudo apt install xdotool`
 
 ### Windows
 1. Download a copy of this repository from [here](https://github.com/Catuna/AndroidMediaControlsWindows/archive/master.zip)
