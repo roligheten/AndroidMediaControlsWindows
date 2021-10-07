@@ -11,8 +11,10 @@ Regardless of the platform the following is required
 2. The packages pywin32 and sounddevice, installable via `pip install pywin32 sounddevice`.
 ### On Linux
 1. Install python3 via `sudo apt install python3`
-2. install packages sounddevice and numpy `pip3 install numpy`
+2. install packages sounddevice and numpy `pip3 install numpy sounddevice`
 3. install xdotool (emulates key presses) `sudo apt install xdotool`
+4. Install pypy, found to give performence improvements; recommended but not required, you can use the regular python interpreter: `sudo apt install pypy3`
+if run via pypy, install requirements using `pypy3 -m pip install numpy sounddevice`
 
 ### Windows
 1. Download a copy of this repository from [here](https://github.com/Catuna/AndroidMediaControlsWindows/archive/master.zip)
@@ -37,5 +39,16 @@ Regardless of the platform the following is required
    
 7. Restart your computer. At this point you should find 'pythonw.exe' running in the task mananger under 'Background Processes' and the program should function.
 
-### Linux and Mac
-Sorry, the script currently only works for Windows at the moment, feel free to contribute code for other platforms if you have the time.
+### Linux
+
+1. Clone the repo via `git clone <url>` or download and extract the zip as listed in the first step of the windows install
+2. Place it somewhere safe, maybe in the documents folder
+3. cd into the directory
+4. start the script via `python3 run.py` or `pypy3 run.py`, test if it works if you want to
+5. test if it works
+6. then add it to startup apps, on PopOS 21.10, you can do this via the startup apps application
+
+### Mac
+Not yet supported
+
+
