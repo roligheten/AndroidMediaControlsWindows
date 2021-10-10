@@ -10,6 +10,7 @@ Regardless of the platform the following is required
 1. Python 3 or 2.7 (untested) installed on the system.
 2. The packages pywin32 and sounddevice, installable via `pip install pywin32 sounddevice`.
 ### On Linux
+#### Note: This only works on X11, No wayland Support as of now
 1. Install python3 via `sudo apt install python3`
 2. install packages sounddevice and numpy `pip3 install numpy sounddevice`
 3. install xdotool (emulates key presses) `sudo apt install xdotool`
