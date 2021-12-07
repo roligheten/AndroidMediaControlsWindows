@@ -47,7 +47,7 @@ if run via pypy, install requirements using `pypy3 -m pip install numpy sounddev
 3. cd into the directory
 4. start the script via `python3 run.py` or `pypy3 run.py`, test if it works if you want to
 5. test if it works
-6. then add it to startup apps, on PopOS 21.10, you can do this via the startup apps application
+6. then add it to startup apps, as of Pop!_OS 21.04, you can do this via the startup apps application
 
 ### Mac
 Not yet supported
