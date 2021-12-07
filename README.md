@@ -5,17 +5,21 @@ For more details on how this works, see the associated [blog post](http://www.ro
 
 ## Installation
 
-### On Windows
+### Dependencies
+
+#### On Windows
 Regardless of the platform the following is required
 1. Python 3 or 2.7 (untested) installed on the system.
 2. The packages pywin32 and sounddevice, installable via `pip install pywin32 sounddevice`.
-### On Linux
-#### Note: This only works on X11, No wayland Support as of now
+#### On Linux
+##### Note: This only works on X11, No wayland Support as of now
 1. Install python3 via `sudo apt install python3`
 2. install packages sounddevice and numpy `pip3 install numpy sounddevice`
 3. install xdotool (emulates key presses) `sudo apt install xdotool`
 4. Install pypy, found to give performence improvements; recommended but not required, you can use the regular python interpreter: `sudo apt install pypy3`
 if run via pypy, install requirements using `pypy3 -m pip install numpy sounddevice`
+
+### Running and Installing
 
 ### Windows
 1. Download a copy of this repository from [here](https://github.com/Catuna/AndroidMediaControlsWindows/archive/master.zip)
